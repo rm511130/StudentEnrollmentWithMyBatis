@@ -24,9 +24,9 @@
 
 <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 	<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-	<property name="url" value="jdbc:mysql://mydbinstance.cavpckqdd90v.us-east-1.rds.amazonaws.com:3306/studentEnrollment?autoReconnect=true&amp;createDatabaseIfNotExist=true&amp;" />
-	<property name="username" value="awsuser" />
-	<property name="password" value="password" />
+	<property name="url" value="jdbc:mysql://q-n2s3y1.q-g69.bosh:3306/studentenrollment?autoReconnect=true&amp;createDatabaseIfNotExist=true&amp;" />
+        <property name="username" value="b06b9d5eb07449e185e31248bb8019f4" />
+        <property name="password" value="0yiboud2nz0aw9b1" />
 </bean>
 
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
